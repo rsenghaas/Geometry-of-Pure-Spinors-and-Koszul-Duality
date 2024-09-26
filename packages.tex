@@ -1,0 +1,46 @@
+%%% 
+%%%%%% load packages 
+%%%%%%%%% 
+\usepackage{pgfplots}\pgfplotsset{compat=1.17} 
+\usepackage{amsmath,amssymb,amsthm,mathtools,array,booktabs}
+% \usepackage[varbb]{newpxmath}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{snakes,arrows,shapes}
+\usepackage{tikz-cd}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[cmtip,all]{xy}
+\usepackage{enumitem}
+\usepackage{csquotes}
+\usepackage{comment}
+\usepackage{float}
+\usepackage{mathdots}
+% \usepackage{showframe}
+\ifnum\draftcontrol=1
+\usepackage[inline]{showlabels}
+\usepackage{showkeys}
+\fi
+
+%%%%%% Bibliography
+%%%%%%%%%
+\usepackage[citestyle=numeric,bibstyle=numeric,
+giveninits=true,doi=false,url=false,isbn=false,
+parentracker=false,
+backend=biber,
+maxnames=10,
+date=year,
+sorting=nty]{biblatex} 
+
+%%%%%% load hyperref last
+%%%%%%%%%
+\usepackage{hyperref}
+\hypersetup{
+  unicode,
+  bookmarksnumbered,
+  linktoc = all,
+  hidelinks
+  % pdfborderstyle = {/S/U/W 0.1}
+}
+%%% don't use typewriter for urls
+\urlstyle{same}

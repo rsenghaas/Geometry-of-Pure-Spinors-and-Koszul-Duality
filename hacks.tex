@@ -1,0 +1,237 @@
+
+\makeatletter
+
+%%%
+%%%%%% draftcontrol
+%%%%%%
+
+\expandafter\ifx\csname draftcontrol\endcsname\relax\global\def\draftcontrol{0} 
+\fi 
+
+{\count255=\time\divide\count255 by 60 
+\xdef\hourmin{\number\count255} 
+\multiply\count255 by-60\advance\count255 by\time 
+\xdef\hourmin{\hourmin:\ifnum\count255<10 0\fi\the\count255}} 
+\def\draftdate{\number\month/\number\day/\number\year\ \ \ \hourmin } 
+
+\def\@version#1{%
+  \ifnum\draftcontrol=1 
+  \typeout{}\typeout{#1}\typeout{} 
+  \vskip3mm\centerline{%
+    \hbox{%
+      \fbox{\normalsize{\tt DRAFT -- #1 -- }%
+          {\draftdate}}}}\vskip3mm 
+\fi} 
+\let\version\@version 
+
+%%% 
+%%%%%% titlepage (adapted from article.cls)
+%%%%%%%%%
+
+\newcommand\makepapertitle{\par
+  \begingroup 
+    \renewcommand\thefootnote{\@fnsymbol\c@footnote}% 
+    \def\@makefnmark{\rlap{\@textsuperscript{\normalfont\@thefnmark}}}% 
+    \long\def\@makefntext##1{\parindent 1em\noindent 
+            \hb@xt@1.8em{% 
+                \hss\@textsuperscript{\normalfont\@thefnmark}}##1}% 
+     \newpage 
+     \global\@topnum\z@   % Prevents figures from going at top of page. 
+     \@makepapertitle 
+     \thispagestyle{empty}\@thanks 
+  \endgroup 
+  \setcounter{footnote}{0}% 
+  \global\let\thanks\relax 
+  \global\let\makepapertitle\relax 
+  \global\let\@makepapertitle\relax 
+  \global\let\@thanks\@empty 
+  \global\let\@author\@empty 
+  \global\let\@date\@empty 
+  \global\let\@title\@empty 
+  \global\let\title\relax 
+  \global\let\author\relax 
+  \global\let\date\relax 
+  \global\let\and\relax 
+  % \def\version{\let\version\@version\@gobble} 
+  }
+\def\@makepapertitle{% 
+  \newpage 
+   \ifnum\draftcontrol=1 {} 
+   \version\versionno 
+   \vskip 5.5em% 
+   \else 
+   \hfill\hbox to 3cm {\parbox{5.5cm}{\@pubnum}\hss}% 
+   \vskip 3.5em% 
+   \fi 
+   \begin{center}% 
+   \let \footnote \thanks 
+      {\hskip -0\textwidth \hbox to 1\textwidth% 
+        {\centerline{\Large\bf{\noindent%
+	\parbox[t]{1.3\textwidth}{\begin{center}\@title\end{center}}}}}}% 
+     \vskip 1.2em% 
+     {\normalsize%\large 
+       \lineskip .5em% 
+       \begin{tabular}[t]{c}% 
+         \@author 
+       \end{tabular}\par}% 
+     \vskip 1.5em% 
+     {\@bstract}% 
+     \end{center}% 
+     \vfill
+     \@date%
+     \vskip 1.5em%
+    \noindent
+    \rule{12em}{.02em}\par\noindent
+    \@email%
+   \par 
+} 
+
+\gdef\@pubnum{} 
+\def\pubnum#1{% 
+  \gdef\@pubnum{#1}} 
+
+\gdef\@bstract{} 
+\def\Abstract#1{% 
+  \gdef\@bstract{% 
+   \parbox{\textwidth-0pc}{% 
+   \centerline{\bf Abstract}\penalty1000 
+   \noindent%\abstractfont \baselineskip=12pt 
+   \renewcommand\baselinestretch{1.0} 
+   {#1}}} 
+} 
+
+\gdef\@email{}
+\def\email#1{%
+   \gdef\@email{%
+   Email: {\tt #1}}
+}
+
+%%%
+%%%%%% Table of contents
+%%%%%%%%%
+
+\setcounter{tocdepth}{2}
+\renewcommand*\l@section[2]{%
+  \ifnum \c@tocdepth >\z@
+    \addpenalty\@secpenalty
+    \addvspace{.5em \@plus\p@}%
+    \setlength\@tempdima{1.5em}%
+    \begingroup
+      \parindent \z@ \rightskip \@pnumwidth
+      \parfillskip -\@pnumwidth
+      \leavevmode \bfseries
+      \advance\leftskip\@tempdima
+      \hskip -\leftskip
+      #1\nobreak\hfil \nobreak\hb@xt@\@pnumwidth{\hss #2}\par
+    \endgroup
+  \fi}
+\renewcommand*\l@subsection{\addvspace{.0em \@plus\p@}\@dottedtocline{2}{1.5em}{2.3em}}
+\renewcommand*\l@subsubsection{\addvspace{-.2em \@plus\p@}\@dottedtocline{3}{3.8em}{3.2em}}
+
+%%% 
+%%%%%% pagestyle 
+%%%%%%%%%  
+
+\def\ps@paper{\let\@mkboth\@gobbletwo% 
+     \ifnum\draftcontrol=1 
+        \def\@oddfoot{\hbox to \textwidth{\tiny \versionno \hfil\tiny\draftdate}% 
+        \hskip -\textwidth \hbox to \textwidth{\hfil\rm\thepage\hfil}}% 
+     \else\def\@oddfoot{\hbox to \textwidth{\hfil\rm\thepage\hfil}} 
+     \fi 
+     \let\@evenfoot\@oddfoot 
+} 
+
+%%%
+%%%%%% Bibliography
+%%%%%%%%%
+
+%%% this saves a bit of space
+\renewcommand*{\bibsetup}{%
+  \interlinepenalty=5000\relax
+  \widowpenalty=10000\relax
+  \clubpenalty=10000\relax
+  \raggedbottom
+  \frenchspacing
+  \biburlsetup
+  \renewcommand\baselinestretch{1.1}
+}
+\renewcommand{\bibfont}{\normalfont\small}
+\setlength\bibitemsep{0.2em}
+\setlength\bibhang{1em}
+
+%%% this suppresses the In: 
+\renewbibmacro{in:}{}
+\DeclareFieldFormat{doilink}{%
+  \iffieldundef{doi}%
+  {#1}%
+  {\href{https://doi.org/\thefield{doi}}{#1}}
+}
+%%% and puts doi link around journal reference
+%%% (hacked from standard.bbx https://ctan.org/tex-archive/macros/latex/contrib/biblatex/latex/bbx?lang=en)
+\DeclareBibliographyDriver{article}{%
+  \usebibmacro{bibindex}%
+  \usebibmacro{begentry}%
+  \usebibmacro{author/translator+others}%
+  \setunit{\printdelim{nametitledelim}}\newblock
+  \usebibmacro{title}%
+  \newunit
+  \printlist{language}%
+  \newunit\newblock
+  \usebibmacro{byauthor}%
+  \newunit\newblock
+  \usebibmacro{bytranslator+others}%
+  \newunit\newblock
+  \printfield{version}%
+  \newunit\newblock
+  \usebibmacro{in:}
+  \iffieldundef{journaltitle}
+   {\printtext[journaltitle]{Preprint} \mkbibparens{\printdate}}
+   {\printtext[doilink]{%
+    \usebibmacro{journal+issuetitle}%
+    \newunit
+    \usebibmacro{byeditor+others}%
+    \newunit
+    \usebibmacro{note+pages}%
+    \newunit\newblock
+    \iftoggle{bbx:isbn}
+      {\printfield{issn}}
+      {}%
+   }
+   }
+  \newunit\newblock
+  \usebibmacro{doi+eprint+url}
+  \newunit\newblock
+  \usebibmacro{addendum+pubstate}%
+  \setunit{\bibpagerefpunct}\newblock
+  \usebibmacro{pageref}%
+  \newunit\newblock
+  \iftoggle{bbx:related}
+    {\usebibmacro{related:init}%
+     \usebibmacro{related}}
+    {}%
+  \usebibmacro{finentry}}
+
+%%% this puts brackets around arxiv if journal exists
+\letbibmacro{nakedEprint}{eprint}
+\renewbibmacro*{eprint}{%
+  \iffieldundef{eprint}
+    {}
+    {\iffieldundef{journaltitle}
+      {\usebibmacro{nakedEprint}}
+      {\printtext{{\usebibmacro{nakedEprint}}}}} %\mkbibbrackets I think there are too many brackets
+}
+%%% and changes format of [eprint:arxiv]
+%%% (hacked from: https://packages.oth-regensburg.de/ctan/macros/latex/contrib/biblatex/latex/biblatex.def)
+\DeclareFieldFormat{eprint:arxiv}{%
+  \ifhyperref
+    {\href{https://arxiv.org/\abx@arxivpath/#1}{%
+       \nolinkurl{arXiv:#1}%
+       \iffieldundef{eprintclass}
+         {}
+         {\addspace{\mkbibbrackets{\thefield{eprintclass}}}}}}  %%% remmoved \texttt
+    {\nolinkurl{arXiv:#1}%
+     \iffieldundef{eprintclass}
+       {}
+       {\addspace{\mkbibbrackets{\thefield{eprintclass}}}}}}   %%% removed \texttt
+
+\makeatother

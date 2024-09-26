@@ -1,0 +1,66 @@
+%%%
+%%%%%% layout
+%%%%%%%%%
+
+\renewcommand\baselinestretch{1.25} 
+\setlength{\paperheight}{11in} 
+\setlength{\paperwidth}{8.5in} 
+\setlength{\textwidth}{\paperwidth-2.4in}     \hoffset= -.5in   % +1in from printer 
+\setlength{\textheight}{\paperheight-2.4in}   \topmargin= -.6in % +1in from printer 
+
+% \setlength{\parindent}{0cm}
+
+%%%
+%%%%%% Floats
+%%%%%%%%%
+
+\renewcommand{\floatpagefraction}{.8}%
+\renewcommand{\topfraction}{1}
+
+\makeatletter
+%%%%%%%%% section titles 
+\renewcommand\section{\@startsection {section}{1}{\z@}% 
+                                   {-3.5ex \@plus -1ex \@minus -.2ex}% 
+                                   {2.3ex \@plus.2ex}% 
+                                   {\normalfont\large\bfseries}} 
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}% 
+                                   {-3.25ex\@plus -1ex \@minus -.2ex}% 
+                                   {1.5ex \@plus .2ex}% 
+                                   {\normalfont\normalsize\bfseries}} 
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}% 
+                                   {-3.25ex\@plus -1ex \@minus -.2ex}% 
+                                   {1.5ex \@plus .2ex}% 
+                                   {\normalfont\normalsize\it}} 
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}% 
+                                   {-3.25ex\@plus -1ex \@minus -.2ex}% 
+                                   {1.5ex \@plus .2ex}% 
+                                   {\normalfont\normalsize\bf}} 
+\renewcommand\subparagraph{\@startsection{subparagraph}{5}{\z@}% 
+                                   {-1.25ex\@plus -1ex \@minus -.2ex}% 
+                                   {0ex \@plus .2ex}% 
+                                   {\normalfont\normalsize\it}} 
+\makeatother
+
+\setcounter{secnumdepth}{3}
+
+%* Theorems
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{construction}{Construction}[section]
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{lemma}[theorem]{Lemma}
+
+\theoremstyle{remark}
+\newtheorem*{claim}{Claim}
+\newtheorem*{remark}{Remark}
+
+
+\numberwithin{equation}{section}
+\renewcommand{\sectionautorefname}{\S}
+\renewcommand{\subsectionautorefname}{\S}
+\renewcommand{\subsubsectionautorefname}{\S}
+

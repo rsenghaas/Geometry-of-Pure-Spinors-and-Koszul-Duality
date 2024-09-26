@@ -1,0 +1,39 @@
+
+% !TEX TS–program = pdflatexmk
+% !BIB program = biber
+\global\def\draftcontrol{0}
+\pdfoutput=1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   \def\versionno{ The Pure Spinor correspondence as Koszul Duality }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%
+%%%%%% get ready
+%%%%%%%%%
+
+\documentclass[11pt]{article}
+\input{packages}
+\input{hacks}
+\input{structure}
+\input{macros}
+\addbibresource{biblio.bib}
+\setlength\parindent{0pt}
+\begin{document}
+
+\title{The Pure Spinor correspondence as Koszul Duality}
+
+\pubnum{
+% arXiv:2404.07167
+% :yymm.nnnnn\\
+}
+
+\date{September 2024}
+
+\maketitle
+
+\input{chapters/introduction}
+\input{chapters/localization}
+
+\printbibliography[heading=bibintoc]
+
+\end{document}
