@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/nixos.org) (preloaded format=pdflatex 1980.1.1)  26 SEP 2024 13:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/nixos.org) (preloaded format=pdflatex 1980.1.1)  26 SEP 2024 14:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1016,6 +1016,18 @@ th.
 \MDodotkern=\muskip19
 )
 (/nix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined-full-2023-final-t
+exmfdist/tex/latex/showlabels/showlabels.sty
+Package: showlabels 2022/07/18 v1.9.2
+
+Package: `showlabels' v1.9.2 <2022/07/18>
+with amsmath equation tags
+\SL@labelposition=\count330
+)
+(/nix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined-full-2023-final-t
+exmfdist/tex/latex/tools/showkeys.sty
+Package: showkeys 2023/07/08 v3.19 Show cite and label keys (DPC, MH)
+)
+(/nix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined-full-2023-final-t
 exmfdist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
 
@@ -1047,7 +1059,7 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 (/nix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined-full-2023-final-t
 exmfdist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count330
+\lrq@indent=\count331
 
 (/nix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined-full-2023-final-t
 exmfdist/tex/latex/logreq/logreq.def
@@ -1062,49 +1074,49 @@ exmfdist/tex/latex/url/url.sty
 \Urlmuskip=\muskip20
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count331
-\c@listtotal=\count332
-\c@listcount=\count333
-\c@liststart=\count334
-\c@liststop=\count335
-\c@citecount=\count336
-\c@citetotal=\count337
-\c@multicitecount=\count338
-\c@multicitetotal=\count339
-\c@instcount=\count340
-\c@maxnames=\count341
-\c@minnames=\count342
-\c@maxitems=\count343
-\c@minitems=\count344
-\c@citecounter=\count345
-\c@maxcitecounter=\count346
-\c@savedcitecounter=\count347
-\c@uniquelist=\count348
-\c@uniquename=\count349
-\c@refsection=\count350
-\c@refsegment=\count351
-\c@maxextratitle=\count352
-\c@maxextratitleyear=\count353
-\c@maxextraname=\count354
-\c@maxextradate=\count355
-\c@maxextraalpha=\count356
-\c@abbrvpenalty=\count357
-\c@highnamepenalty=\count358
-\c@lownamepenalty=\count359
-\c@maxparens=\count360
-\c@parenlevel=\count361
-\blx@tempcnta=\count362
-\blx@tempcntb=\count363
-\blx@tempcntc=\count364
-\c@blx@maxsection=\count365
-\blx@maxsegment@0=\count366
-\blx@notetype=\count367
-\blx@parenlevel@text=\count368
-\blx@parenlevel@foot=\count369
-\blx@sectionciteorder@0=\count370
-\blx@sectionciteorderinternal@0=\count371
-\blx@entrysetcounter=\count372
-\blx@biblioinstance=\count373
+\c@tabx@nest=\count332
+\c@listtotal=\count333
+\c@listcount=\count334
+\c@liststart=\count335
+\c@liststop=\count336
+\c@citecount=\count337
+\c@citetotal=\count338
+\c@multicitecount=\count339
+\c@multicitetotal=\count340
+\c@instcount=\count341
+\c@maxnames=\count342
+\c@minnames=\count343
+\c@maxitems=\count344
+\c@minitems=\count345
+\c@citecounter=\count346
+\c@maxcitecounter=\count347
+\c@savedcitecounter=\count348
+\c@uniquelist=\count349
+\c@uniquename=\count350
+\c@refsection=\count351
+\c@refsegment=\count352
+\c@maxextratitle=\count353
+\c@maxextratitleyear=\count354
+\c@maxextraname=\count355
+\c@maxextradate=\count356
+\c@maxextraalpha=\count357
+\c@abbrvpenalty=\count358
+\c@highnamepenalty=\count359
+\c@lownamepenalty=\count360
+\c@maxparens=\count361
+\c@parenlevel=\count362
+\blx@tempcnta=\count363
+\blx@tempcntb=\count364
+\blx@tempcntc=\count365
+\c@blx@maxsection=\count366
+\blx@maxsegment@0=\count367
+\blx@notetype=\count368
+\blx@parenlevel@text=\count369
+\blx@parenlevel@foot=\count370
+\blx@sectionciteorder@0=\count371
+\blx@sectionciteorderinternal@0=\count372
+\blx@entrysetcounter=\count373
+\blx@biblioinstance=\count374
 \labelnumberwidth=\skip63
 \labelalphawidth=\skip64
 \biblabelsep=\skip65
@@ -1116,9 +1128,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read4
 \blx@bcfout=\write6
 \blx@langwohyphens=\language89
-\c@mincomprange=\count374
-\c@maxcomprange=\count375
-\c@mincompwidth=\count376
+\c@mincomprange=\count375
+\c@maxcomprange=\count376
+\c@mincompwidth=\count377
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1130,74 +1142,74 @@ Package biblatex Info: Trying to load biblatex citestyle data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count377
-\c@savedafterword=\count378
-\c@annotator=\count379
-\c@savedannotator=\count380
-\c@author=\count381
-\c@savedauthor=\count382
-\c@bookauthor=\count383
-\c@savedbookauthor=\count384
-\c@commentator=\count385
-\c@savedcommentator=\count386
-\c@editor=\count387
-\c@savededitor=\count388
-\c@editora=\count389
-\c@savededitora=\count390
-\c@editorb=\count391
-\c@savededitorb=\count392
-\c@editorc=\count393
-\c@savededitorc=\count394
-\c@foreword=\count395
-\c@savedforeword=\count396
-\c@holder=\count397
-\c@savedholder=\count398
-\c@introduction=\count399
-\c@savedintroduction=\count400
-\c@namea=\count401
-\c@savednamea=\count402
-\c@nameb=\count403
-\c@savednameb=\count404
-\c@namec=\count405
-\c@savednamec=\count406
-\c@translator=\count407
-\c@savedtranslator=\count408
-\c@shortauthor=\count409
-\c@savedshortauthor=\count410
-\c@shorteditor=\count411
-\c@savedshorteditor=\count412
-\c@labelname=\count413
-\c@savedlabelname=\count414
-\c@institution=\count415
-\c@savedinstitution=\count416
-\c@lista=\count417
-\c@savedlista=\count418
-\c@listb=\count419
-\c@savedlistb=\count420
-\c@listc=\count421
-\c@savedlistc=\count422
-\c@listd=\count423
-\c@savedlistd=\count424
-\c@liste=\count425
-\c@savedliste=\count426
-\c@listf=\count427
-\c@savedlistf=\count428
-\c@location=\count429
-\c@savedlocation=\count430
-\c@organization=\count431
-\c@savedorganization=\count432
-\c@origlocation=\count433
-\c@savedoriglocation=\count434
-\c@origpublisher=\count435
-\c@savedorigpublisher=\count436
-\c@publisher=\count437
-\c@savedpublisher=\count438
-\c@language=\count439
-\c@savedlanguage=\count440
-\c@origlanguage=\count441
-\c@savedoriglanguage=\count442
-\c@pageref=\count443
-\c@savedpageref=\count444
+\c@afterword=\count378
+\c@savedafterword=\count379
+\c@annotator=\count380
+\c@savedannotator=\count381
+\c@author=\count382
+\c@savedauthor=\count383
+\c@bookauthor=\count384
+\c@savedbookauthor=\count385
+\c@commentator=\count386
+\c@savedcommentator=\count387
+\c@editor=\count388
+\c@savededitor=\count389
+\c@editora=\count390
+\c@savededitora=\count391
+\c@editorb=\count392
+\c@savededitorb=\count393
+\c@editorc=\count394
+\c@savededitorc=\count395
+\c@foreword=\count396
+\c@savedforeword=\count397
+\c@holder=\count398
+\c@savedholder=\count399
+\c@introduction=\count400
+\c@savedintroduction=\count401
+\c@namea=\count402
+\c@savednamea=\count403
+\c@nameb=\count404
+\c@savednameb=\count405
+\c@namec=\count406
+\c@savednamec=\count407
+\c@translator=\count408
+\c@savedtranslator=\count409
+\c@shortauthor=\count410
+\c@savedshortauthor=\count411
+\c@shorteditor=\count412
+\c@savedshorteditor=\count413
+\c@labelname=\count414
+\c@savedlabelname=\count415
+\c@institution=\count416
+\c@savedinstitution=\count417
+\c@lista=\count418
+\c@savedlista=\count419
+\c@listb=\count420
+\c@savedlistb=\count421
+\c@listc=\count422
+\c@savedlistc=\count423
+\c@listd=\count424
+\c@savedlistd=\count425
+\c@liste=\count426
+\c@savedliste=\count427
+\c@listf=\count428
+\c@savedlistf=\count429
+\c@location=\count430
+\c@savedlocation=\count431
+\c@organization=\count432
+\c@savedorganization=\count433
+\c@origlocation=\count434
+\c@savedoriglocation=\count435
+\c@origpublisher=\count436
+\c@savedorigpublisher=\count437
+\c@publisher=\count438
+\c@savedpublisher=\count439
+\c@language=\count440
+\c@savedlanguage=\count441
+\c@origlanguage=\count442
+\c@savedoriglanguage=\count443
+\c@pageref=\count444
+\c@savedpageref=\count445
 \shorthandwidth=\skip71
 \shortjournalwidth=\skip72
 \shortserieswidth=\skip73
@@ -1225,19 +1237,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 (/nix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined-full-2023-final-t
 exmfdist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count445
-\c@textcitetotal=\count446
-\c@textcitemaxnames=\count447
-\c@biburlbigbreakpenalty=\count448
-\c@biburlbreakpenalty=\count449
-\c@biburlnumpenalty=\count450
-\c@biburlucpenalty=\count451
-\c@biburllcpenalty=\count452
+\c@textcitecount=\count446
+\c@textcitetotal=\count447
+\c@textcitemaxnames=\count448
+\c@biburlbigbreakpenalty=\count449
+\c@biburlbreakpenalty=\count450
+\c@biburlnumpenalty=\count451
+\c@biburlucpenalty=\count452
+\c@biburllcpenalty=\count453
 \biburlbigskip=\muskip21
 \biburlnumskip=\muskip22
 \biburlucskip=\muskip23
 \biburllcskip=\muskip24
-\c@smartand=\count453
+\c@smartand=\count454
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -1251,8 +1263,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (/nix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined-full-2023-final-t
 exmfdist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count454
-\c@bbx:relatedtotal=\count455
+\c@bbx:relatedcount=\count455
+\c@bbx:relatedtotal=\count456
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -1289,7 +1301,7 @@ Package: expl3 2024-02-20 L3 programming layer (loader)
 (/nix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined-full-2023-final-t
 exmfdist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count456
+\l__color_backend_stack_int=\count457
 \l__pdf_internal_box=\box96
 ))
 Package biblatex Info: ... and expl3
@@ -1337,11 +1349,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 exmfdist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count457
+\c@section@level=\count458
 )
 \@linkdim=\dimen338
-\Hy@linkcounter=\count458
-\Hy@pagecounter=\count459
+\Hy@linkcounter=\count459
+\Hy@pagecounter=\count460
 
 (/nix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined-full-2023-final-t
 exmfdist/tex/latex/hyperref/pd1enc.def
@@ -1353,7 +1365,7 @@ Now handling font encoding PD1 ...
 exmfdist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count460
+\Hy@SavedSpaceFactor=\count461
 
 (/nix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined-full-2023-final-t
 exmfdist/tex/latex/hyperref/puenc.def
@@ -1368,7 +1380,7 @@ Package hyperref Info: Plain pages OFF on input line 4194.
 Package hyperref Info: Backreferencing OFF on input line 4199.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4446.
-\c@Hy@tempcnt=\count461
+\c@Hy@tempcnt=\count462
 LaTeX Info: Redefining \url on input line 4784.
 \XeTeXLinkMargin=\dimen339
 
@@ -1381,7 +1393,7 @@ exmfdist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count462
+\Fld@menulength=\count463
 \Field@Width=\dimen340
 \Fld@charsize=\dimen341
 Package hyperref Info: Hyper figures OFF on input line 6063.
@@ -1397,9 +1409,9 @@ exmfdist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count463
-\c@Item=\count464
-\c@Hfootnote=\count465
+\Hy@abspage=\count464
+\c@Item=\count465
+\c@Hfootnote=\count466
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -1413,8 +1425,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count466
-\c@bookmark@seq@number=\count467
+\Fld@listcount=\count467
+\c@bookmark@seq@number=\count468
 
 (/nix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined-full-2023-final-t
 exmfdist/tex/latex/rerunfilecheck/rerunfilecheck.sty
@@ -1433,11 +1445,11 @@ Package hyperref Info: Option `unicode' set `true' on input line 44.
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 44.
 ) (./hacks.tex)
 (./structure.tex
-\c@theorem=\count468
-\c@construction=\count469
+\c@theorem=\count469
+\c@construction=\count470
 ) (./macros.tex
-\c@example=\count470
-\c@notation=\count471
+\c@example=\count471
+\c@notation=\count472
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
@@ -1466,16 +1478,16 @@ LaTeX Font Info:    ... okay on input line 21.
 (/nix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined-full-2023-final-t
 exmfdist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count472
+\scratchcounter=\count473
 \scratchdimen=\dimen342
 \scratchbox=\box97
-\nofMPsegments=\count473
-\nofMParguments=\count474
+\nofMPsegments=\count474
+\nofMParguments=\count475
 \everyMPshowfont=\toks60
-\MPscratchCnt=\count475
+\MPscratchCnt=\count476
 \MPscratchDim=\dimen343
-\MPnumerator=\count476
-\makeMPintoPDFobject=\count477
+\MPnumerator=\count477
+\makeMPintoPDFobject=\count478
 \everyMPtoPDFconversion=\toks61
 )
 (/nix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined-full-2023-final-t
@@ -1508,4 +1520,103 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package xypdf Info: Line width: 0.43799pt on input line 21.
 Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'engl
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/nix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined-full-2023-final-t
+exmfdist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout6 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (./main.bbl)
+Package biblatex Info: Reference section=0 on input line 21.
+Package biblatex Info: Reference segment=0 on input line 21.
+Package hyperref Info: Link coloring OFF on input line 21.
+ (./main.out)
+(./main.out)
+\@outlinefile=\write7
+\openout7 = `main.out'.
+
+ (./chapters/introduction.tex
+LaTeX Font Info:    Trying to load font information for U+euf on input line 5.
+
+(/nix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined-full-2023-final-t
+exmfdist/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+) Excluding 'comment' comment.
+LaTeX Font Info:    Trying to load font information for OT1+pzc on input line 2
+4.
+
+(/nix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined-full-2023-final-t
+exmfdist/tex/latex/psnfss/ot1pzc.fd
+File: ot1pzc.fd 2020/03/25 font definitions for OT1/pzc.
+)) (./chapters/localization.tex)
+(./chapters/ps.tex [1
+
+{/nix/store/zmcm9d2dp9nvwz8548qjh0nchj3xgv72-texlive-combined-full-2023-final/s
+hare/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/nix/store/812mkx037giwcxnx7
+8cqc1hafa2b85ap-texlive-combined-full-2023-final-texmfdist/fonts/enc/dvips/base
+/8r.enc}]) (./chapters/loopspace.tex)
+(./chapters/further.tex) [2] [3] (./main.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 4B5356FCD2980FE6DFF6FED24668D817;1177.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 45536 strings out of 474116
+ 1058565 string characters out of 5717523
+ 1972688 words of memory out of 5000000
+ 67122 multiletter control sequences out of 15000+600000
+ 575672 words of font info for 100 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 104i,8n,110p,3249b,1546s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</nix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined-full-2023-final
+-texmfdist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></nix/store/812mkx037giwcx
+nx78cqc1hafa2b85ap-texlive-combined-full-2023-final-texmfdist/fonts/type1/publi
+c/amsfonts/cm/cmbx12.pfb></nix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-c
+ombined-full-2023-final-texmfdist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></n
+ix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined-full-2023-final-texm
+fdist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></nix/store/812mkx037giwcxnx78cq
+c1hafa2b85ap-texlive-combined-full-2023-final-texmfdist/fonts/type1/public/amsf
+onts/cm/cmr10.pfb></nix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined
+-full-2023-final-texmfdist/fonts/type1/public/amsfonts/cm/cmr12.pfb></nix/store
+/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined-full-2023-final-texmfdist/fo
+nts/type1/public/amsfonts/cm/cmr17.pfb></nix/store/812mkx037giwcxnx78cqc1hafa2b
+85ap-texlive-combined-full-2023-final-texmfdist/fonts/type1/public/amsfonts/cm/
+cmr6.pfb></nix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined-full-202
+3-final-texmfdist/fonts/type1/public/amsfonts/cm/cmr8.pfb></nix/store/812mkx037
+giwcxnx78cqc1hafa2b85ap-texlive-combined-full-2023-final-texmfdist/fonts/type1/
+public/amsfonts/cm/cmss10.pfb></nix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texl
+ive-combined-full-2023-final-texmfdist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b></nix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined-full-2023-final
+-texmfdist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></nix/store/812mkx037giwcxn
+x78cqc1hafa2b85ap-texlive-combined-full-2023-final-texmfdist/fonts/type1/public
+/amsfonts/cm/cmti10.pfb></nix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-co
+mbined-full-2023-final-texmfdist/fonts/type1/public/amsfonts/cm/cmti7.pfb></nix
+/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined-full-2023-final-texmfd
+ist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></nix/store/812mkx037giwcxnx78cqc
+1hafa2b85ap-texlive-combined-full-2023-final-texmfdist/fonts/type1/public/amsfo
+nts/cm/cmtt9.pfb></nix/store/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined-
+full-2023-final-texmfdist/fonts/type1/public/amsfonts/euler/eufm10.pfb></nix/st
+ore/812mkx037giwcxnx78cqc1hafa2b85ap-texlive-combined-full-2023-final-texmfdist
+/fonts/type1/public/amsfonts/symbols/msbm10.pfb></nix/store/812mkx037giwcxnx78c
+qc1hafa2b85ap-texlive-combined-full-2023-final-texmfdist/fonts/type1/urw/zapfch
+an/uzcmi8a.pfb>
+Output written on main.pdf (3 pages, 214201 bytes).
+PDF statistics:
+ 185 PDF objects out of 1000 (max. 8388607)
+ 140 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+

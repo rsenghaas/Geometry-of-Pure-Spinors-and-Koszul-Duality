@@ -1,7 +1,7 @@
 
 % !TEX TS–program = pdflatexmk
 % !BIB program = biber
-\global\def\draftcontrol{0}
+\global\def\draftcontrol{1}
 \pdfoutput=1
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
    \def\versionno{ The Pure Spinor correspondence as Koszul Duality }
@@ -27,12 +27,17 @@
 % :yymm.nnnnn\\
 }
 
+\author{Simone, Steffen, Raphael, Johannes}
+
 \date{September 2024}
 
 \maketitle
 
 \input{chapters/introduction}
 \input{chapters/localization}
+\input{chapters/ps}
+\input{chapters/loopspace}
+\input{chapters/further}
 
 \printbibliography[heading=bibintoc]
 

@@ -19,6 +19,169 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Arkhipov03}{article}{}
+      \name{author}{3}{}{%
+        {{hash=893141045ea3c358ef1692526cdc76a2}{%
+           family={Arkhipov},
+           familyi={A\bibinitperiod},
+           given={Sergey\bibnamedelima V.},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=2c213d25dc93fba120b8b5d92744edcf}{%
+           family={Bezrukavnikov},
+           familyi={B\bibinitperiod},
+           given={Roman},
+           giveni={R\bibinitperiod}}}%
+        {{hash=fd81af24de7d089fca02f6d0b3319d2d}{%
+           family={Ginzburg},
+           familyi={G\bibinitperiod},
+           given={Victor},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{051c187f4c3b8c70dfe22e9bc8c33a71}
+      \strng{fullhash}{051c187f4c3b8c70dfe22e9bc8c33a71}
+      \strng{bibnamehash}{051c187f4c3b8c70dfe22e9bc8c33a71}
+      \strng{authorbibnamehash}{051c187f4c3b8c70dfe22e9bc8c33a71}
+      \strng{authornamehash}{051c187f4c3b8c70dfe22e9bc8c33a71}
+      \strng{authorfullhash}{051c187f4c3b8c70dfe22e9bc8c33a71}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Mathematical Society}
+      \field{title}{Quantum groups, the loop Grassmannian, and the Springer resolution}
+      \field{volume}{17}
+      \field{year}{2003}
+      \field{pages}{595\bibrangedash 678}
+      \range{pages}{84}
+      \verb{urlraw}
+      \verb https://api.semanticscholar.org/CorpusID:116931481
+      \endverb
+      \verb{url}
+      \verb https://api.semanticscholar.org/CorpusID:116931481
+      \endverb
+    \endentry
+    \entry{BenZvi08}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0f2f75ebe805b2af9760822294260ff5}{%
+           family={Ben-Zvi},
+           familyi={B\bibinithyphendelim Z\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=294396608bd5d1d75a39ed05327fbbd2}{%
+           family={Heluani},
+           familyi={H\bibinitperiod},
+           given={Reimundo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8c84eaced57f3905d0681459be1b84af}{%
+           family={Szczesny},
+           familyi={S\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{e3c49608c5d6058fde214ac5bc192625}
+      \strng{fullhash}{e3c49608c5d6058fde214ac5bc192625}
+      \strng{bibnamehash}{e3c49608c5d6058fde214ac5bc192625}
+      \strng{authorbibnamehash}{e3c49608c5d6058fde214ac5bc192625}
+      \strng{authornamehash}{e3c49608c5d6058fde214ac5bc192625}
+      \strng{authorfullhash}{e3c49608c5d6058fde214ac5bc192625}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1570-5846}
+      \field{journaltitle}{Compositio Mathematica}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{Supersymmetry of the chiral de Rham complex}
+      \field{volume}{144}
+      \field{year}{2008}
+      \field{pages}{503\bibrangedash 521}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1112/s0010437x07003223
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1112/S0010437X07003223
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1112/S0010437X07003223
+      \endverb
+    \endentry
+    \entry{BenZvi12}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0f2f75ebe805b2af9760822294260ff5}{%
+           family={Ben-Zvi},
+           familyi={B\bibinithyphendelim Z\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7fc5c301d79eb14c10ad4ea8960852f7}{%
+           family={Nadler},
+           familyi={N\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{a3541a19b6744718982dfa2b860c16b4}
+      \strng{fullhash}{a3541a19b6744718982dfa2b860c16b4}
+      \strng{bibnamehash}{a3541a19b6744718982dfa2b860c16b4}
+      \strng{authorbibnamehash}{a3541a19b6744718982dfa2b860c16b4}
+      \strng{authornamehash}{a3541a19b6744718982dfa2b860c16b4}
+      \strng{authorfullhash}{a3541a19b6744718982dfa2b860c16b4}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1753-8416}
+      \field{journaltitle}{Journal of Topology}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{Loop spaces and connections}
+      \field{volume}{5}
+      \field{year}{2012}
+      \field{pages}{377\bibrangedash 430}
+      \range{pages}{54}
+      \verb{doi}
+      \verb 10.1112/jtopol/jts007
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1112/jtopol/jts007
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1112/jtopol/jts007
+      \endverb
+    \endentry
+    \entry{Chen23}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=0956a45c3fed503513295d8b58f11dfa}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Harrison\bibnamedelima B.},
+           giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{0956a45c3fed503513295d8b58f11dfa}
+      \strng{fullhash}{0956a45c3fed503513295d8b58f11dfa}
+      \strng{bibnamehash}{0956a45c3fed503513295d8b58f11dfa}
+      \strng{authorbibnamehash}{0956a45c3fed503513295d8b58f11dfa}
+      \strng{authornamehash}{0956a45c3fed503513295d8b58f11dfa}
+      \strng{authorfullhash}{0956a45c3fed503513295d8b58f11dfa}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Categorical cyclic homology and filtered D-modules on stacks: Koszul duality}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://api.semanticscholar.org/CorpusID:260441033
+      \endverb
+      \verb{url}
+      \verb https://api.semanticscholar.org/CorpusID:260441033
+      \endverb
+    \endentry
     \entry{EHS22}{article}{}
       \name{author}{3}{}{%
         {{hash=c6f1c1a1c85e3c4b36336c1b6f8f5ac7}{%
@@ -60,6 +223,158 @@
       \endverb
       \verb{eprint}
       \verb 2205.14133
+      \endverb
+    \endentry
+    \entry{Francis11}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=1adaff221576fd5e3ef30f94d658dc6f}{%
+           family={Francis},
+           familyi={F\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0da990b8e12de8e4bcdbaff207c15484}{%
+           family={Gaitsgory},
+           familyi={G\bibinitperiod},
+           given={Dennis},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5844c9f2693fca07689990f7bf193b3}
+      \strng{fullhash}{f5844c9f2693fca07689990f7bf193b3}
+      \strng{bibnamehash}{f5844c9f2693fca07689990f7bf193b3}
+      \strng{authorbibnamehash}{f5844c9f2693fca07689990f7bf193b3}
+      \strng{authornamehash}{f5844c9f2693fca07689990f7bf193b3}
+      \strng{authorfullhash}{f5844c9f2693fca07689990f7bf193b3}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{math.AG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Chiral Koszul duality}
+      \field{year}{2011}
+      \verb{eprint}
+      \verb 1103.5803
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1103.5803
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1103.5803
+      \endverb
+    \endentry
+    \entry{Kapranov10}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=72e6505d6f5316f20a2a63cc95f96ae5}{%
+           family={Kapranov},
+           familyi={K\bibinitperiod},
+           given={Mikhail},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c2c40cedbe2731e7f07d7fa79a42e6e6}{%
+           family={Vasserot},
+           familyi={V\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{4714efba7cd86133b45fbb3404860a69}
+      \strng{fullhash}{4714efba7cd86133b45fbb3404860a69}
+      \strng{bibnamehash}{4714efba7cd86133b45fbb3404860a69}
+      \strng{authorbibnamehash}{4714efba7cd86133b45fbb3404860a69}
+      \strng{authornamehash}{4714efba7cd86133b45fbb3404860a69}
+      \strng{authorfullhash}{4714efba7cd86133b45fbb3404860a69}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{math.AG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Supersymmetry and the formal loop space}
+      \field{year}{2010}
+      \verb{eprint}
+      \verb 1005.4466
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1005.4466
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1005.4466
+      \endverb
+    \endentry
+    \entry{Malikov99}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2b2a01dd6caffd4349e4d26aeba04699}{%
+           family={Malikov},
+           familyi={M\bibinitperiod},
+           given={Fyodor},
+           giveni={F\bibinitperiod}}}%
+        {{hash=c8d570da3a47a267d15acf7f4573c0be}{%
+           family={Schechtman},
+           familyi={S\bibinitperiod},
+           given={Vadim},
+           giveni={V\bibinitperiod}}}%
+        {{hash=9db80778f293162babc545533ba5ca2b}{%
+           family={Vaintrob},
+           familyi={V\bibinitperiod},
+           given={Arkady},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{e7e668117ea466aca793a38785cffdb7}
+      \strng{fullhash}{e7e668117ea466aca793a38785cffdb7}
+      \strng{bibnamehash}{e7e668117ea466aca793a38785cffdb7}
+      \strng{authorbibnamehash}{e7e668117ea466aca793a38785cffdb7}
+      \strng{authornamehash}{e7e668117ea466aca793a38785cffdb7}
+      \strng{authorfullhash}{e7e668117ea466aca793a38785cffdb7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1432-0916}
+      \field{journaltitle}{Communications in Mathematical Physics}
+      \field{month}{7}
+      \field{number}{2}
+      \field{title}{Chiral de Rham Complex}
+      \field{volume}{204}
+      \field{year}{1999}
+      \field{pages}{439\bibrangedash 473}
+      \range{pages}{35}
+      \verb{doi}
+      \verb 10.1007/s002200050653
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/s002200050653
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s002200050653
+      \endverb
+    \endentry
+    \entry{Preygel17}{article}{}
+      \name{author}{1}{}{%
+        {{hash=147c112689a6d58931aaa830e2a709d5}{%
+           family={Preygel},
+           familyi={P\bibinitperiod},
+           given={Anatoly},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{147c112689a6d58931aaa830e2a709d5}
+      \strng{fullhash}{147c112689a6d58931aaa830e2a709d5}
+      \strng{bibnamehash}{147c112689a6d58931aaa830e2a709d5}
+      \strng{authorbibnamehash}{147c112689a6d58931aaa830e2a709d5}
+      \strng{authornamehash}{147c112689a6d58931aaa830e2a709d5}
+      \strng{authorfullhash}{147c112689a6d58931aaa830e2a709d5}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ind-coherent complexes on loop spaces and connections}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb http://www.tolypreygel.com/papers/note_loop_short.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.tolypreygel.com/papers/note_loop_short.pdf
       \endverb
     \endentry
     \entry{ScholzeReal}{article}{}
